@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Info -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kajsa Lilja: Cells</title>
+    <meta name="description" content="Kajsa Lilja: placeholder description of my final project, Cells.">
+
+    <!-- Kopplar till olika bibliotek på nätet, typsnitt osv -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Stage för PIXI -->
+    <div id="stage" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header class="top">
+        <a class="logo" href="./">kajsa lilja</a>
+        <nav aria-label="Main">
+            <a href="#work">work</a>
+            <a href="#cells">cells</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Snabb info om mig, kommer ändras efter Algorave -->
+        <section class="intro">
+            <p><strong>Based in Stockholm,</strong> Kajsa Lilja is a student working with creative coding and
+                generative visuals. This text is a placeholder.</p>
+            <p>This page presents my final project, Cells. I will replace this text with the real description
+                after the Algorave.</p>
+            <p><a class="contact" href="mailto:kajsalilja303@gmail.com">Get in touch</a></p> <!-- Maila till mig -->
+        </section>
+
+        <!-- Bytt ut PIXI-element mot bilder från egna hemsida, kan ändras senare. Placeholder -->
+        <section id="work" aria-label="Work">
+            <ul class="grid">
+                <li class="tile">
+                    <div class="art" data-motif="bloom">
+                        <img src="cell.png">
+                    </div>
+                    <h2>visuals</h2>
+                    <p class="tags">placeholder / what the audience sees</p>
+                </li>
+                <li class="tile">
+                    <div class="art" data-motif="rings">
+                        <img src="both_cells.png" alt="Placeholder image of the sound part of my project">
+                    </div>
+                    <h2>sound</h2>
+                    <p class="tags">placeholder / what the audience hears</p>
+                </li>
+                <li class="tile">
+                    <div class="art" data-motif="grid">
+                        <img src="red_cell.png" alt="Placeholder image of the code part of my project">
+                    </div>
+                    <h2>code</h2>
+                    <p class="tags">placeholder / what the audience sees</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Olika delar som förklarar projektet, placeholder så länge -->
+        <section id="cells" class="about">
+            <h2>cells</h2>
+            <div class="cols">
+                <div>
+                    <h3>idea</h3>
+                    <p>Placeholder text about the idea behind my final project. Describe what Cells is and what
+                        it should make the audience feel or experience.</p>
+                    <h3>tools</h3>
+                    <p>Placeholder text about the tools and technologies I use, for example JavaScript,
+                        PixiJS and live coding.</p>
+                </div>
+                <div>
+                    <h3>process</h3>
+                    <p>Placeholder text about how I work on the project, from first sketch to finished
+                        performance.</p>
+                    <h3>performance</h3>
+                    <p>Placeholder text about the Algorave and how the project will be presented there.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bottom">
+        <p>© 2026 Kajsa Lilja</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.6/dist/pixi.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
