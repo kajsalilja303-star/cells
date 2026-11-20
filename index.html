@@ -31,61 +31,93 @@
     </header>
 
     <main>
-        <!-- Snabb info om mig, kommer ändras efter Algorave -->
+        <!-- Snabb info om mig -->
         <section class="intro">
-            <p><strong>Based in Stockholm,</strong> Kajsa Lilja is a student working with creative coding and
-                generative visuals. This text is a placeholder.</p>
-            <p>This page presents my final project, Cells. I will replace this text with the real description
-                after the Algorave.</p>
+            <p><strong>Based in Stockholm,</strong> I am a 24-year-old student in my second year of the IT,
+                Media and Design programme at Södertörn University.</p>
+            <p>Digital Biomass is an interactive digital artwork about the border between the digital and the
+                biological. As artificial intelligence develops rapidly, it becomes interesting to ask what is alive and
+                what is not. The project portrays something that cannot exist: a digital, organic, living organism.</p>
+
             <p><a class="contact" href="mailto:kajsalilja303@gmail.com">Get in touch</a></p> <!-- Maila till mig -->
         </section>
 
-        <!-- Bytt ut PIXI-element mot bilder från egna hemsida, kan ändras senare. Placeholder -->
+        <!-- Bytt ut PIXI-element mot bilder från egna hemsida -->
         <section id="work" aria-label="Work">
             <ul class="grid">
                 <li class="tile">
                     <div class="art" data-motif="bloom">
-                        <img src="cell.png">
+                        <img src="Celler.png">
                     </div>
                     <h2>visuals</h2>
                     <p class="tags">placeholder / what the audience sees</p>
                 </li>
                 <li class="tile">
                     <div class="art" data-motif="rings">
-                        <img src="both_cells.png" alt="Placeholder image of the sound part of my project">
+                        <video src="videos/video.mp4" controls playsinline></video>
                     </div>
                     <h2>sound</h2>
                     <p class="tags">placeholder / what the audience hears</p>
                 </li>
-                <li class="tile">
-                    <div class="art" data-motif="grid">
-                        <img src="red_cell.png" alt="Placeholder image of the code part of my project">
-                    </div>
-                    <h2>code</h2>
-                    <p class="tags">placeholder / what the audience sees</p>
-                </li>
             </ul>
         </section>
 
-        <!-- Olika delar som förklarar projektet, placeholder så länge -->
+        <!-- Olika delar som förklarar projektet -->
         <section id="cells" class="about">
             <h2>cells</h2>
             <div class="cols">
                 <div>
                     <h3>idea</h3>
-                    <p>Placeholder text about the idea behind my final project. Describe what Cells is and what
-                        it should make the audience feel or experience.</p>
+                    <p>The idea for the project came out of discussions with my partner where the 2000s game
+                        Spore was a strong inspiration. In Spore you begin as a single cell and watch
+                        life grow and evolve, and we wanted to capture that feeling of watching something small come
+                        alive, but as an artwork rather than a game.</p>
                     <h3>tools</h3>
-                    <p>Placeholder text about the tools and technologies I use, for example JavaScript,
-                        PixiJS and live coding.</p>
+                    <p>The tools used in this project was Visual Studio Code where standard HTML, CSS and JavaScript was
+                        used. MediaPipe Hand Landmarker was used for the hand tracking functionality and Web Audio API
+                        was used for the audio functionality. The use of AI, Claude, was also explored in the
+                        development of the project.</p>
                 </div>
                 <div>
                     <h3>process</h3>
-                    <p>Placeholder text about how I work on the project, from first sketch to finished
-                        performance.</p>
+                    <p> The process has been a creative journey of experimentation and iteration, exploring the
+                        intersection of technology and art. Tuva Naring (my partner) and I worked together really well
+                        by dividing the work and supporting each other throughout the development. </p>
                     <h3>performance</h3>
-                    <p>Placeholder text about the Algorave and how the project will be presented there.</p>
+                    <p>The performance at Algorave went really well. Both the audience and classmates were very engaged
+                        and the feedback was positive. The only thing that could be improved is the lighting, which was
+                        a bit dim during the performance. This in turn affected the overall visual experience since the
+                        handtracking stopped working properly.</p>
                 </div>
+                <li class="tile">
+                    <div class="art" data-motif="grid">
+                        <img src="celltyper_bild.png" class="whole" alt="The five cell types in Digital Biomass">
+                    </div>
+                    <h2>cell types</h2>
+                    <p class="tags">drifter / hunter / parasite / watcher / connector</p>
+                </li>
+                <li class="tile">
+                    <div class="art" data-motif="scatter">
+                        <img src="forsta_sida.png" class="whole"
+                            alt="Illustration of the four hand gestures: pinch, open hand, fist and swipe">
+                    </div>
+                    <h2>hand gestures</h2>
+                    <p class="tags">pinch / open hand / fist / swipe</p>
+                </li>
+                <li class="tile">
+                    <div class="art" data-motif="links">
+                        <img src="rave1.jpg" alt="Visitors trying Digital Biomass at the Algorave">
+                    </div>
+                    <h2>algorave</h2>
+                    <p class="tags">performance / audience</p>
+                </li>
+                <li class="tile">
+                    <div class="art" data-motif="links">
+                        <img src="rave2.jpg" alt="Visitors trying Digital Biomass at the Algorave">
+                    </div>
+                    <h2>algorave</h2>
+                    <p class="tags">performance / audience</p>
+                </li>
             </div>
         </section>
     </main>
